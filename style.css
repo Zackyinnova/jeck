@@ -7,33 +7,39 @@ body{
 
 .navigator{
     color: white;
-    margin-top: 10px ;
     display: flex;
     align-items: center;
     font-family: "poetsen one", sans-serif;
-    margin-left: 30px;
+    position: fixed;
+    top: 0px;
 }
 
 .Logo{
     font-size: large;
+    margin-left: 40px;
+    margin-right: 320px;
+
 }
 
 ul,li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 50px;
+    text-align: center;
 }
+
 
 li:hover{
     color: black;
 }
 
 ul>button{
-    margin-left: 100px;
+    margin-left: 470px;
     background-color: #23a6f0;
     border: none;
     color: white;
     padding: 10px 20px;
+    width: 100px;
     border-radius : 5px; ;
 }
 
@@ -50,11 +56,89 @@ h1{
     margin-top: 80px ;
     color: #23a6f0;
 }
+
 p{
     color:white;
     margin-top: 10px;
 }
 
-.span{
+.visi-misi{
+    height: 480px;
+}
 
+.header-visimisi{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: "poetsen one", sans-serif;
+    font-size: 30px;
+}
+
+.grid-container{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    font-family: "poetsen one", sans-serif;
+}
+
+.grid-item1{
+    border: 1px solid black;
+    text-align: center;
+    margin-left:40px ;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+.grid-item1>img{
+    width: 70%;
+    display: block;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.grid-item1>p{
+    margin-top: 40px;
+}
+
+
+
+.grid-item2{
+    border: 1px solid black;
+    text-align: center;
+    margin-left:40px ;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.grid-item2>img{
+    width: 70%;
+    display: block;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.grid-item2>p{
+    margin-top: 40px;
+}
+
+
+.grid-item3{
+    border: 1px solid black;
+    text-align: center;
+    margin-left:40px ;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+.grid-item3>img{
+    width: 70%;
+    display: block;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.grid-item3>p{
+    margin-top: 40px;
 }
