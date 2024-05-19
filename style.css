@@ -6,8 +6,8 @@ body{
 }
 
 .navigator{
-    color: white;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: "poetsen one", sans-serif;
     position: fixed;
@@ -18,18 +18,24 @@ body{
     font-size: large;
     margin-left: 40px;
     margin-right: 320px;
+    color: white;
 
 }
 
 ul,li {
-    list-style-type: none;
     display: inline-block;
     margin-left: 50px;
     text-align: center;
+    cursor: pointer;
+    color: white;
 }
 
+li> a{
+    color: white;
+    text-decoration: none;
+}
 
-li:hover{
+li > a:hover{
     color: black;
 }
 
@@ -79,6 +85,11 @@ p{
     gap: 100px;
     margin-top: 20px;
     font-family: "poetsen one", sans-serif;
+}
+
+.grid-container:hover > :not(:hover){
+    opacity: .7;
+    transform :scale(.85);
 }
 
 .grid-item1{
